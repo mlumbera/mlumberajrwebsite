@@ -1,0 +1,12 @@
+baseURL = 'https://mlumberajr.com/'
+languageCode = 'en-us'
+title = 'mlumberajr'
+theme = 'flat'
+
+[deployment]
+
+[[deployment.targets]]
+
+name = 'mlumberajr'
+
+URL = "s3://mlumberajr?region=us-east-1"
